@@ -12,7 +12,7 @@ Todas as questões estarão organizadas em uma pasta específica chamada "Quest�
 
 **3 - Resolução das Questões:**
 
-Cada equipe deverá designar um membro para clonar o repositório e criar uma branch com o nome do seu time. Os enunciados das questões estarão disponíveis em formato Markdown ([arquivo.md](http://arquivo.md/)) e deverão ser renomeados com a extensão correspondente à linguagem de programação escolhida para a resolução. Além disso, é fundamental que o enunciado seja completamente comentado, a fim de evitar conflitos com o código desenvolvido posteriormente.
+Cada equipe deverá designar um membro para clonar o repositório e criar uma branch com o nome do seu time. Nesta branch é necessário criar uma pasta com o nome do time. Os enunciados das questões estarão disponíveis em formato Markdown e deverão ser copiados para o arquivo de resolução com a extensão correspondente à linguagem de programação escolhida. Além disso, é fundamental que o enunciado seja completamente comentado, a fim de evitar conflitos com o código desenvolvido posteriormente.
 
 **4 - Escolha das Linguagens de Programação:**
 
@@ -27,4 +27,4 @@ O grupo vencedor será determinado com base na quantidade de questões resolvida
 - 3 pontos serão dados a programas que estejam escritos de forma coerente com o enunciado, mas não apresentem uma saída funcional.
 - 0 pontos serão concedidos para não entregas ou programas que estejam escritos de forma incoerente com o enunciado.
 
-Salientamos que o gabarito das questões já estará disponível e será mantido em sigilo para evitar qualquer tipo de fraude. A consistência dos códigos desenvolvidos será avaliada com base no gabarito.
+Salientamos que o gabarito das questões já estará disponível e será mantido em sigilo para evitar qualquer tipo de fraude. A consistência dos códigos desenvolvidos será avaliada com base no gabarito que estará escrito em JavaScript e Python.
