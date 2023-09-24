@@ -2,7 +2,7 @@
 
 **1 - Sobre a Maratona:**
 
-A Maratona de Programação Rinha Estudantil de Backend é um evento destinado à participação dos estudantes da turma de Técnico em Desenvolvimento de Software da série 23-1N do SENAC de São Leopoldo - RS. Os times serão formados pelos estudantes de acordo com suas afinidades. A maratona acontecerá na sala 100 do prédio D 04 da Unisinos e contará com o nome dos times escolhidos anteriormente em suas respectivas ilhas de desenvolvimento.
+A Maratona de Programação Rinha Estudantil de Backend é um evento destinado à participação dos estudantes da turma de Técnico em Desenvolvimento de Software da série 23-1N do SENAC de São Leopoldo - RS. Os times serão formados pelos estudantes de acordo com suas afinidades. A maratona acontecerá na sala 100 do prédio D 04 da Unisinos Campus São Leopoldo e contará com o nome dos times escolhidos anteriormente em suas respectivas ilhas de desenvolvimento.
 
 **2 - Questões e Repositório:**
 
