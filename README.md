@@ -16,7 +16,7 @@ Cada equipe deverá designar um membro para baixar o repositório oficial. Essa 
 
 **4 - Escolha das Linguagens de Programação:**
 
-Os participantes terão a liberdade de escolher as linguagens de programação que desejam utilizar para a resolução das questões. É permitido utilizar abordagens de programação Procedural ou Orientada a Objeto. No entanto, linguagens de programação que fazem uso de blocos serão estritamente proibidas.
+Os participantes terão a liberdade de escolher as linguagens de programação que desejam utilizar para a resolução das questões. É permitido utilizar abordagens de programação Procedural ou Orientada a Objeto. No entanto, linguagens de programação que fazem uso de blocos serão estritamente proibidas. É expressamente proibido utilizar Inteligência Artificial para o desenvolvimento das questões, desencadeando uma eliminação na atividade e não desenvolvendo o indicativo final da disciplina gerando uma reprovação.
 
 **5 - Premiação e Critérios de Avaliação:**
 
