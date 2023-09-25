@@ -12,7 +12,7 @@ Todas as questões estarão organizadas em uma pasta específica chamada "Quest�
 
 **3 - Resolução das Questões:**
 
-Cada equipe deverá designar um membro para clonar o repositório e criar uma branch com o nome do seu time. Nesta branch é necessário criar uma pasta com o nome do time. Os enunciados das questões estarão disponíveis em formato Markdown e deverão ser copiados para o arquivo de resolução com a extensão correspondente à linguagem de programação escolhida. Além disso, é fundamental que o enunciado seja completamente comentado, a fim de evitar conflitos com o código desenvolvido posteriormente.
+Cada equipe deverá designar um membro para baixar o repositório oficial. Essa pessoa irá criar um repositório no GitHub pessoal com o nome do time e fornecerá o link no início da maratona para o professor responsável. Os enunciados das questões estarão disponíveis em formato Markdown e deverão ser copiados para o arquivo de resolução com a extensão correspondente à linguagem de programação escolhida. Além disso, é fundamental que o enunciado seja completamente comentado, a fim de evitar conflitos com o código desenvolvido posteriormente.
 
 **4 - Escolha das Linguagens de Programação:**
 
