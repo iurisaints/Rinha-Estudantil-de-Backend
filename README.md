@@ -27,6 +27,8 @@ O grupo vencedor será determinado com base na quantidade de questões resolvida
 - 3 pontos serão dados a programas que estejam escritos de forma coerente com o enunciado, mas não apresentem uma saída funcional.
 - 0 pontos serão concedidos para não entregas ou programas que estejam escritos de forma incoerente com o enunciado.
 
+- O aquecimento que foi feito no dia 25/09 contará como 20 pontos caso o grupo não atinja o mínimo de pontuação (10 pontos)
+
 Salientamos que o gabarito das questões já estará disponível e será mantido em sigilo para evitar qualquer tipo de fraude. A consistência dos códigos desenvolvidos será avaliada com base no gabarito que estará escrito em JavaScript e Python.
 
 **6 - Times Inscritos:**
