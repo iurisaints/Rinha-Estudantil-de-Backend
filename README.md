@@ -28,3 +28,33 @@ O grupo vencedor será determinado com base na quantidade de questões resolvida
 - 0 pontos serão concedidos para não entregas ou programas que estejam escritos de forma incoerente com o enunciado.
 
 Salientamos que o gabarito das questões já estará disponível e será mantido em sigilo para evitar qualquer tipo de fraude. A consistência dos códigos desenvolvidos será avaliada com base no gabarito que estará escrito em JavaScript e Python.
+
+**6 - Times Inscritos:**
+
+Nome da equipe 0: **SOS Developer**
+1- Augusto Alexandre;
+2- Augusto Rodrigues;
+3- Matheus Henrique;
+4- Edson Vargas;
+5- Aline Mentz.
+
+Nome da Equipe 1: **Grupo bar-semlona**
+1 - Vitor Brum;
+2 - Renan Silva;
+3 - Daniel Estral.
+
+Nome da Equipe 2: **The Rogers**
+1 - Felipe Peres;
+2 - Luiz Bataioli;
+3 - Marcelo Steinhaus;
+4 - Roger Ferreira.
+
+Nome da Equipe 3: **Tríade**
+1 - Arthur Vargas;
+2 - Nicolas Lucas;
+3 - Pedro Borba.
+
+Nome da Equipe 4: **Os Pacotões**
+1 - Leonardo Lopes;
+2 - Gustavo Silveira;
+3 - Felipe Garcia.
