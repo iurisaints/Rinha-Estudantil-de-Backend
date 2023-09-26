@@ -32,11 +32,11 @@ Salientamos que o gabarito das questões já estará disponível e será mantido
 **6 - Times Inscritos:**
 
 Nome da equipe 0: **SOS Developer**
-1- Augusto Alexandre;
-2- Augusto Rodrigues;
-3- Matheus Henrique;
-4- Edson Vargas;
-5- Aline Mentz.
+1 - Augusto Alexandre;
+2 - Augusto Rodrigues;
+3 - Matheus Henrique;
+4 - Edson Vargas;
+5 - Aline Mentz.
 
 Nome da Equipe 1: **Grupo bar-semlona**
 1 - Vitor Brum;
