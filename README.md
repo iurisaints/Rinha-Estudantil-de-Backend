@@ -32,27 +32,27 @@ Salientamos que o gabarito das questões já estará disponível e será mantido
 **6 - Times Inscritos:**
 
 \nNome da equipe 0: **SOS Developer**
-1 - Augusto Alexandre;
-2 - Augusto Rodrigues;
-3 - Matheus Henrique;
-4 - Edson Vargas;
-5 - Aline Mentz.
+\n1 - Augusto Alexandre;
+\n2 - Augusto Rodrigues;
+\n3 - Matheus Henrique;
+\n4 - Edson Vargas;
+\n5 - Aline Mentz.
 
-Nome da Equipe 1: **Grupo bar-semlona**
-1 - Vitor Brum;
-2 - Renan Silva;
-3 - Daniel Estral.
+\nNome da Equipe 1: **Grupo bar-semlona**
+\n1 - Vitor Brum;
+\n2 - Renan Silva;
+\n3 - Daniel Estral.
 
-Nome da Equipe 2: **The Rogers**
-1 - Felipe Peres;
-2 - Luiz Bataioli;
-3 - Marcelo Steinhaus;
-4 - Roger Ferreira.
+\nNome da Equipe 2: **The Rogers**
+\n1 - Felipe Peres;
+\n2 - Luiz Bataioli;
+\n3 - Marcelo Steinhaus;
+\n4 - Roger Ferreira.
 
-Nome da Equipe 3: **Tríade**
-1 - Arthur Vargas;
-2 - Nicolas Lucas;
-3 - Pedro Borba.
+\nNome da Equipe 3: **Tríade**
+\n1 - Arthur Vargas;
+\n2 - Nicolas Lucas;
+\n3 - Pedro Borba.
 
 Nome da Equipe 4: **Os Pacotões**
 1 - Leonardo Lopes;
