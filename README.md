@@ -31,7 +31,7 @@ Salientamos que o gabarito das questões já estará disponível e será mantido
 
 **6 - Times Inscritos:**
 
-Nome da equipe 0: **SOS Developer**
+\nNome da equipe 0: **SOS Developer**
 1 - Augusto Alexandre;
 2 - Augusto Rodrigues;
 3 - Matheus Henrique;
