@@ -1,0 +1,124 @@
+ALGUMAS QUESTÕES NÃO TEM READLINE-SYNC, POR ISSO TERÁ UM DECRESCIMO DE 10 PONTOS NA NOTA FINAL;
+
+LOG DE TESTE - 1 - CADASTRO DE ALUNO - LINGUAGEM TYPESCRIPT:
+
+NÃO TEM COMO PEGAR O LOG DEVIDO AO CONSOLE CLEAR MAS ÓTIMO CÓDIGO, TOTALMENTE FUNCIONAL E USÁVEL - NOTA 10
+
+
+LOG DE TESTE - 2 - CALCULADORA DE GEOMETRIA - LINGUAGEM TYPESCRIPT:
+
+NÃO TEM COMO PEGAR O LOG DEVIDO AO CONSOLE CLEAR, A SAÍDA ESPERADA ERA SÓ A DA MÉDIA, ENTÃO TESTEI APENAS A MÉDIA E NÃO FOI TÃO COERENTE QUANTO O ESPERADO POIS PUDE COLOCAR O VALOR QUE QUIS NA NOTA, DE 10 A UM MILHÃO, NÃO HOUVE UM CONTROLE DOS VALORES, NOTA 5.
+
+LOG DE TESTE - 3 - SIMULADOR DE BANCOS - LINGUAGEM TYPESCRIPT:
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\SOS Developer\maratona> CD '.\Atividade 4\'
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\SOS Developer\maratona\Atividade 4> LS
+
+
+    Diretório: C:\Users\aluno
+    tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\SOS
+    Developer\maratona\Atividade 4
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        27/09/2023     15:35                build
+d-----        27/09/2023     15:35                src
+-a----        27/09/2023     15:35            274 package.json
+-a----        27/09/2023     15:35          12278 tsconfig.json
+
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\SOS Developer\maratona\Atividade 4> cd build
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\SOS Developer\maratona\Atividade 4\build> ls
+
+
+    Diretório: C:\Users\aluno
+    tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\SOS
+    Developer\maratona\Atividade 4\build
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        27/09/2023     15:35           1040 ContaBancaria.js
+-a----        27/09/2023     15:35            905 ContaBancaria.js.map
+-a----        27/09/2023     15:35            264 index.js
+-a----        27/09/2023     15:35            249 index.js.map
+
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\SOS Developer\maratona\Atividade 4\build> node .\index.js
+Depósito realizado com sucesso!
+Saldo atualizado: R$ 350 reais
+Saque realizado com sucesso!
+Saldo atualizado: R$ 150 reais
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\SOS Developer\maratona\Atividade 4\build> node .\ContaBancaria.js
+
+O CÓDIGO ESTÁ BEM ESTRUTURADO MAS NÃO TEM A SAÍDA COERENTE COM O ESPERADO, NOTA 5.
+
+LOG DE TESTE - 5 - JOGO DA FORCA - LINGUAGEM TYPESCRIPT:
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\SOS Developer\maratona\Atividade 5> cd .\build\
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\SOS Developer\maratona\Atividade 5\build> ls
+
+
+    Diretório: C:\Users\aluno
+    tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\SOS
+    Developer\maratona\Atividade 5\build
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        27/09/2023     15:35           2668 Index.js
+-a----        27/09/2023     15:35           1456 Index.js.map
+
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\SOS Developer\maratona\Atividade 5\build> node .\Index.js
+Palavra atual: ________
+Tentativas restantes: undefined
+Digite uma letra: a
+Palavra atual: ________
+Tentativas restantes: undefined
+Digite uma letra: s
+Palavra atual: ________
+Tentativas restantes: undefined
+Digite uma letra: f
+Palavra atual: ________
+Tentativas restantes: undefined
+Digite uma letra: g
+Palavra atual: ________
+Tentativas restantes: undefined
+Digite uma letra: e
+Palavra atual: ________
+Tentativas restantes: undefined
+Digite uma letra: q
+Palavra atual: ________
+Tentativas restantes: undefined
+Digite uma letra: er
+Palavra atual: ________
+Tentativas restantes: undefined
+Digite uma letra: q
+Palavra atual: ________
+Tentativas restantes: undefined
+Digite uma letra: rer
+Palavra atual: ________
+Tentativas restantes: undefined
+Digite uma letra: Palavra atual: ________
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\SOS Developer\maratona\Atividade 5\build>
+
+NÃO FUNCIONOU MAS O CÓDIGO ESTÁ COERENTE, NOTA 3;
+
+
+LOG DE TESTE - 6 - JOGO DE ADVINHAÇÃO - LINGUAGEM TYPESCRIPT:
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\SOS Developer\maratona\Atividade 6\build> node .\Index.js
+Adivinhe o Numero: 10
+Não foi desta vez! Tente Novamente.
+Uma Dica: O número é maior do que 10.
+Adivinhe o Numero: 29
+Infelizmente, você perdeu!
+O número aleatório é 0
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\SOS Developer\maratona\Atividade 6\build>    
+
+NÃO FEZ MUITO SENTIDO, O NUMERO ERA 0 MAS ERA MAIOR QUE 10 E EU SÓ TIVE 2 CHANCES?? NOTA 3.
+
+NOTA FINAL: 16;
+
