@@ -1,0 +1,122 @@
+**SEM READLINE - COMO TODOS ESTÃO NA MESMA PASTA, HAVERÁ UM DESCRÉSCIMO DE 10 PONTOS**
+
+LOG DE TESTE - 2 - CALCULADORA DE GEOMETRIA - LINGUAGEM TYPESCRIPT:
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Triade> ^C     
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Triade> node formas
+Qual forma desja calcular
+1-Circulo
+2-Triangulo
+3-Quadrado
+0-Sair1
+Qual o riao do circulo? 50
+314.1592653589793
+Qual forma desja calcular
+1-Circulo
+2-Triangulo
+3-Quadrado
+0-Sair2
+Qual a base do triangulo? 102
+Qual a altura do triangulo? 30
+1530
+Qual forma desja calcular
+1-Circulo
+2-Triangulo
+3-Quadrado
+0-Sair3
+Qual o primeiro lado do quadrado? 120
+Qual o seguno lado do quadrado? 23
+2760
+Qual forma desja calcular
+1-Circulo
+2-Triangulo
+3-Quadrado
+0-Sair1
+Qual o riao do circulo? resa
+Input valid number, please.
+Qual o riao do circulo? rere
+Input valid number, please.
+Qual o riao do circulo? 10
+62.83185307179586
+Qual forma desja calcular
+1-Circulo
+2-Triangulo
+3-Quadrado
+0-Sair0
+Saindo...
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Triade> node formas
+Qual forma desja calcular
+1-Circulo
+2-Triangulo
+3-Quadrado
+0-Sair4
+Qual forma desja calcular
+1-Circulo
+2-Triangulo
+3-Quadrado
+0-Sair5
+Qual forma desja calcular
+1-Circulo
+2-Triangulo
+3-Quadrado
+0-Sair
+
+NOTA 10, TOTALMENTE FUNCIONAL, NÃO CRASHA QUANDO ESCOLHE UM NÚMERO QUE NÃO ESTÁ NO MENÚ.
+
+LOG DE TESTE - 6 - JOGO DE ADVINHAÇÃO - LINGUAGEM TYPESCRIPT:
+
+
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Triade> npm install readline-sync
+
+added 1 package in 430ms
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Triade> node .\AdivinhaçaoN.js   
+Tente adivinhar o número escolhido pelo computador.
+Você tem até 6 tentativas.
+Tentativa 1: Digite um n├║mero entre 1 e 100: 80
+O número é menor.
+Tentativa 2: Digite um n├║mero entre 1 e 100: 10
+O número é maior.
+Tentativa 3: Digite um n├║mero entre 1 e 100: 40
+O número é menor.
+Tentativa 4: Digite um n├║mero entre 1 e 100: 32
+O número é menor.
+Tentativa 5: Digite um n├║mero entre 1 e 100: 40
+O número é menor.
+Tentativa 6: Digite um n├║mero entre 1 e 100: 50
+O número é menor.
+Suas tentativas acabaram. O número correto era 30.
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Triade> node .\AdivinhaçaoN.js
+Tente adivinhar o número escolhido pelo computador.
+Você tem até 6 tentativas.
+Tentativa 1: Digite um n├║mero entre 1 e 100: TESTE
+Por favor, insira um número válido entre 1 e 100.
+Tentativa 1: Digite um n├║mero entre 1 e 100: asdf
+Por favor, insira um número válido entre 1 e 100.
+Tentativa 1: Digite um n├║mero entre 1 e 100: sdf
+Por favor, insira um número válido entre 1 e 100.
+Tentativa 1: Digite um n├║mero entre 1 e 100: asd
+Por favor, insira um número válido entre 1 e 100.
+Tentativa 1: Digite um n├║mero entre 1 e 100: fasd
+Por favor, insira um número válido entre 1 e 100.
+Tentativa 1: Digite um n├║mero entre 1 e 100: fasdf
+Por favor, insira um número válido entre 1 e 100.
+Tentativa 1: Digite um n├║mero entre 1 e 100: asdf
+Por favor, insira um número válido entre 1 e 100.
+Tentativa 1: Digite um n├║mero entre 1 e 100: sadf
+Por favor, insira um número válido entre 1 e 100.
+Tentativa 1: Digite um n├║mero entre 1 e 100: safd
+Por favor, insira um número válido entre 1 e 100.
+Tentativa 1: Digite um n├║mero entre 1 e 100: asd
+Por favor, insira um número válido entre 1 e 100.
+Tentativa 1: Digite um n├║mero entre 1 e 100: fsad
+Por favor, insira um número válido entre 1 e 100.
+Tentativa 1: Digite um n├║mero entre 1 e 100: f
+Por favor, insira um número válido entre 1 e 100.
+Tentativa 1: Digite um n├║mero entre 1 e 100:
+
+o código é interessante e funcional, o problema principal foi o readline, mas atendeu todos os requisitos e foi bem escrito, 10.
+
+
+
+NOTA FINAL: 10;
