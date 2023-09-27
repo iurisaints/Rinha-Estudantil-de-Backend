@@ -1,0 +1,361 @@
+VERSÃO DOS TESTES SE ENCONTRAM NO REPOSITÓRIO OFICIAL.
+
+
+LOG DE TESTE - 1 - CADASTRO DE ALUNO - LINGUAGEM TYPESCRIPT:
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\1 - Cadastro-de-aluno> node .\import.js
+1-Cadastrar
+2-Listar media
+0-Sair
+1
+Nome do aluno:teste
+idade do aluno:teste
+Input valid number, please.
+idade do aluno:10
+1 nota do aluno:90
+2 nota do aluno:2
+3 nota do aluno:3
+1-Cadastrar
+2-Listar media
+0-Sair
+2
+teste - 31.666666666666668
+
+
+1-Cadastrar
+2-Listar media
+0-Sair
+1
+Nome do aluno:alo
+idade do aluno:10
+1 nota do aluno:10
+2 nota do aluno:-7
+3 nota do aluno:8
+1-Cadastrar
+2-Listar media
+0-Sair
+2
+teste - 31.666666666666668
+alo - 3.6666666666666665
+
+
+1-Cadastrar
+2-Listar media
+0-Sair
+
+
+SAÍDA INCOERENTE, NÃO SEI SE A NOTA VAI ATÉ 100, SE VAI ATÉ 1000 E É POSSÍVEL COLOCAR NOTA NEGATIVA, O CÓDIGO ESTÁ BEM ESCRITO, NOTA 5
+
+
+LOG DE TESTE - 2 - CALCULADORA DE GEOMETRIA - LINGUAGEM TYPESCRIPT:
+
+Não há um default no switch case:
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\2 - Calculadora-geometrica> node .\import.js
+Deseja calcular a ├írea de qual forma geometrica?
+1- Quero Calcular a Area de um Retangulo
+2- Quero calcular a Area de um Triangulo
+3- Quero calcular a Area  de um Circulo
+4- Sair
+5
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\2 - Calculadora-geometrica> 
+
+e percebi que em nenhum de vocês tem.
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\2 - Calculadora-geometrica> node .\import.js
+Deseja calcular a ├írea de qual forma geometrica?
+1- Quero Calcular a Area de um Retangulo
+2- Quero calcular a Area de um Triangulo
+3- Quero calcular a Area  de um Circulo
+4- Sair
+5
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\2 - Calculadora-geometrica> node .\import.js
+Deseja calcular a ├írea de qual forma geometrica?
+1- Quero Calcular a Area de um Retangulo
+2- Quero calcular a Area de um Triangulo
+3- Quero calcular a Area  de um Circulo
+4- Sair
+1
+Para calcular a area de um Retangulo, preciso da base do mesmo, insira: 10
+Para calcular a area de um Retangulo, preciso da altura do mesmo, insira: 20
+A Area referente é:  200
+Deseja calcular a ├írea de qual forma geometrica?
+1- Quero Calcular a Area de um Retangulo
+2- Quero calcular a Area de um Triangulo
+3- Quero calcular a Area  de um Circulo
+4- Sair
+2
+Para calcular a area de um Triangulo, preciso da base do mesmo, insira: 10
+Para calcular a area de um Triangulo, preciso da altura do mesmo, insira: 90
+A Area referente é:  450
+Deseja calcular a ├írea de qual forma geometrica?
+1- Quero Calcular a Area de um Retangulo
+2- Quero calcular a Area de um Triangulo
+3- Quero calcular a Area  de um Circulo
+4- Sair
+3
+Para calcular a area de um circulo, preciso do valor do raio do mesmo, insira:20
+A Area referente é:  1256
+Deseja calcular a ├írea de qual forma geometrica?
+1- Quero Calcular a Area de um Retangulo
+2- Quero calcular a Area de um Triangulo
+3- Quero calcular a Area  de um Circulo
+4- Sair
+1
+Para calcular a area de um Retangulo, preciso da base do mesmo, insira: teste
+Input valid number, please.
+Para calcular a area de um Retangulo, preciso da base do mesmo, insira: 10
+Para calcular a area de um Retangulo, preciso da altura do mesmo, insira: 20
+A Area referente é:  200
+Deseja calcular a ├írea de qual forma geometrica?
+1- Quero Calcular a Area de um Retangulo
+2- Quero calcular a Area de um Triangulo
+3- Quero calcular a Area  de um Circulo
+4- Sair
+4
+
+de resto o código está usável, nota 5.
+
+
+LOG DE TESTE - 3 - CONVERSOR DE MOEDAS - LINGUAGEM TYPESCRIPT:
+
+Error: Cannot find module 'readline-sync'
+Require stack:
+- C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\3 - Conversor-de-moedas\Atividade3.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\3 - Conversor-de-moedas\Atividade3.js:7:14)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\aluno tarde\\Downloads\\Rinha-Estudantil-de-Backend-main\\Rinha-Estudantil-de-Backend-main\\Times\\Os Pacotoes\\3 - Conversor-de-moedas\\Atividade3.js'
+  ]
+}
+
+Node.js v18.15.0
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\3 - Conversor-de-moedas> npm install readline-sync
+
+added 1 package in 1s
+/
+**PRECISEI INSTALAR O READLINE-SYNC?**
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\3 - Conversor-de-moedas> node .\Atividade3.js
+Qual a moeda de origem? 
+1- Dolar
+2- Real
+3- Dirham
+4- Won
+ 1
+Qual o valor?
+10
+Quer converter para?
+1- Dolar
+2- Real
+3 - Dirham
+4- Won
+ 3
+O valor convertido é Dirhan:
+ 102.69999999999999
+
+CÓDIGO FUNCIONAL, MAS QUANDO SE CONVERTE CORTA O CÓDIGO, NÃO HÁ UM WHILE PARA SUSTENTAR A CONVERSÃO.
+
+NOTA 5 POR TER UMA SAÍDA COERENTE MAS O CÓDIGO ESTAR EM MAL FUNCIONAMENTO
+
+e pela segunda vez precisei instalar o readline-sync
+
+LOG DE TESTE - 4 - SIMULADOR DE BANCO - LINGUAGEM TYPESCRIPT:
+
+added 1 package in 217ms
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\4 - Simulador-de-Banco> node .\Atividade4.js
+Por favor, digite o seu nome:
+ iuri
+Ol├í, iuri! Escolha uma op├º├úo:
+1 - Depositar
+2 - Sacar
+3 - Consultar Saldo
+4 - Sair
+ 4
+Obrigado por usar nosso serviço. Adeus!
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\4 - Simulador-de-Banco> node .\Atividade4.js
+Por favor, digite o seu nome:
+ iuri
+Ol├í, iuri! Escolha uma op├º├úo:
+1 - Depositar
+2 - Sacar
+3 - Consultar Saldo
+4 - Sair
+ 1
+Ol├í, iuri! Quanto voc├¬ deseja depositar?
+ 10000
+Depósito de R$10000.00 realizado com sucesso.
+Ol├í, iuri! Escolha uma op├º├úo:
+1 - Depositar
+2 - Sacar
+3 - Consultar Saldo
+4 - Sair
+ 3
+Saldo da conta de iuri: R$10000.00
+Ol├í, iuri! Escolha uma op├º├úo:
+1 - Depositar
+2 - Sacar
+3 - Consultar Saldo
+4 - Sair
+ 1
+Ol├í, iuri! Quanto voc├¬ deseja depositar?
+ -9000
+Valor de depósito inválido.
+Ol├í, iuri! Escolha uma op├º├úo:
+1 - Depositar
+2 - Sacar
+3 - Consultar Saldo
+4 - Sair
+ 3
+Saldo da conta de iuri: R$10000.00
+Ol├í, iuri! Escolha uma op├º├úo:
+1 - Depositar
+2 - Sacar
+3 - Consultar Saldo
+4 - Sair
+ 2
+Ol├í, iuri! Quanto voc├¬ deseja sacar?
+90000
+Saldo insuficiente ou valor de saque inválido.
+
+Ol├í, iuri! Escolha uma op├º├úo:
+1 - Depositar
+2 - Sacar
+3 - Consultar Saldo
+4 - Sair
+ 2
+Ol├í, iuri! Quanto voc├¬ deseja sacar?
+10
+Saque de R$10.00 realizado com sucesso.
+Ol├í, iuri! Escolha uma op├º├úo:
+1 - Depositar
+2 - Sacar
+3 - Consultar Saldo
+4 - Sair
+ 3
+Saldo da conta de iuri: R$9990.00
+Ol├í, iuri! Escolha uma op├º├úo:
+1 - Depositar
+2 - Sacar
+3 - Consultar Saldo
+4 - Sair
+ 4
+Obrigado por usar nosso serviço. Adeus!
+
+
+Funcional, nota 10.
+
+LOG DE TESTE - 5 - JOGO DA FORCA - LINGUAGEM JAVASCRIPT:
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes> cd '.\5 - Jogo-da-forca\'
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\5 - Jogo-da-forca> node import
+Fale uma palavra:iuri
+fale um letra:a
+[]
+fale um letra:s
+[]
+fale um letra:c
+[]
+fale um letra:v
+[]
+fale um letra:a
+[]
+fale um letra:s
+[]
+acabou o jogo
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\5 - Jogo-da-forca> node import
+Fale uma palavra:iuir
+fale um letra:10
+[]
+fale um letra:20
+[]
+fale um letra:304
+[]
+fale um letra:120394
+[]
+fale um letra:20930
+[]
+fale um letra:123
+[]
+acabou o jogo
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\5 - Jogo-da-forca> node import
+Fale uma palavra:iuri
+fale um letra:iuri
+[]
+fale um letra:i
+[ 'i', <2 empty items>, 'i' ]
+fale um letra:r
+[ 'i', <1 empty item>, 'r', 'i' ]
+fale um letra:r
+[ 'i', <1 empty item>, 'r', 'i' ]
+fale um letra:u
+[ 'i', 'u', 'r', 'i' ]
+fale um letra:q
+[ 'i', 'u', 'r', 'i' ]
+acabou o jogo
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\5 - Jogo-da-forca> node import
+Fale uma palavra:iuri
+fale um letra:i
+[ 'i', <2 empty items>, 'i' ]
+fale um letra:u
+[ 'i', 'u', <1 empty item>, 'i' ]
+fale um letra:r
+[ 'i', 'u', 'r', 'i' ]
+fale um letra:t
+[ 'i', 'u', 'r', 'i' ]
+fale um letra:e
+[ 'i', 'u', 'r', 'i' ]
+fale um letra:s
+[ 'i', 'u', 'r', 'i' ]
+acabou o jogo
+
+ESSA FOI A MAIS INTERESSANTE ATÉ AGORA. POR MAIS QUE SEJA FUNCIONAL A VALIDAÇÃO, MAS ELA NÃO MOSTRA SE O JOGADOR GANHOU E ELE TEM QUE GASTAR AS 6 CHANCES MAS NENHUM LUGAR DIZ QUE TEM 6 CHANCES E TAMBÉM POSSO INSERIR NÚMERO, POR É VÁLIDO EM RELAÇÃO A STRING MAS AQUI É UM JOGO DE P A L A V R A S ENTÃO NÃO PODERIA ACEITAR, EMBORA TUDO ISSO FOI UM ÓTIMO TRABALHO MAS NOTA 5 POR NÃO TER A SAÍDA COERENTE.
+
+NOTA 5.
+
+
+LOG DE TESTE - 6 - JOGO DE ADVINHAÇÃO - LINGUAGEM TYPESCRIPT:
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\6 - Jogo-de-adivinhação> npm install readline-sync
+
+added 1 package in 1s
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\6 - Jogo-de-adivinhação> node .\Atividade6.js
+Qual seu palpite? 10
+Palpite: 10, Resultado: Maior
+Qual seu palpite? 20
+Palpite: 20, Resultado: Maior
+Qual seu palpite? 30
+Palpite: 30, Resultado: Maior
+Qual seu palpite? 40
+Palpite: 40, Resultado: Menor
+Qual seu palpite? 50
+Palpite: 50, Resultado: Menor
+Qual seu palpite? 35
+Palpite: 35, Resultado: Acertou!
+Número sorteado: 35
+Tentativas necessárias: 5
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Os Pacotoes\6 - Jogo-de-adivinhação> node .\Atividade6.js
+Qual seu palpite? teste
+Input valid number, please.
+Qual seu palpite? ee
+Input valid number, please.
+Qual seu palpite? es
+Input valid number, please.
+Qual seu palpite? ^XInput valid number, please.
+Qual seu palpite?
+
+o programa não é intuitivo, não sei o que fazer com a pergunta "Qual o seu palpite" e também não sei qual parâmetro é utilizado, mas em relação a funcionamento e escrita de código está ótimo, nota 10
+
+**PERDERAM -10 POR NÃO TER INSTALADO O READLINE-SYNC NA PASTA, TORNANDO A BIBLIOTECA INÚTIL NO CÓDIGO, INCOERÊNCIA NO CÓDIGO CASO EU NÃO PUDESSE INSTALAR ISSO NO MOMENTO E ESTIVESSE UTILIZANDO O PROGRAMA RAIZ DE FORMA OFFLINE.**
+
+NOTA FINAL: 35 
