@@ -1,0 +1,219 @@
+VERSÃO DOS TESTES SE ENCONTRAM NO REPOSITÓRIO OFICIAL.
+
+LINK PARA VALIDAÇÃO DE NÚMERO SEM STRING PELO TERMINAL: https://www.geeksforgeeks.org/how-to-force-input-field-to-enter-numbers-only-using-javascript/
+
+LOG DE TESTE - 1 - CADASTRO DE ALUNO - LINGUAGEM TYPESCRIPT:
+
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Bar-Sem-Lona\Rinha Estudantil> node .\cadastroAluno.js
+Informe o nome do aluno: Iuri
+Informe a idade do aluno: 90
+OBS: nota max. = 10
+ Informe a nota 1 do aluno:
+ 90
+Nota inválida.Tente novamente.
+Cadastrar aluno?
+1-Sim
+2-Nao
+ 1
+Opção inválida. Digite 1 ou 2
+Informe o nome do aluno: 1
+Informe a idade do aluno: 12
+OBS: nota max. = 10
+ Informe a nota 1 do aluno:
+ 90
+Nota inválida.Tente novamente.
+Cadastrar aluno?
+1-Sim
+2-Nao
+ 2
+Média das notas dos alunos cadastrados:
+Nome: Iuri, Média: NaN
+Nome: 1, Média: NaN
+
+CÓDIGO COERENTE, SAÍDAS COERENTES, NÃO PASSOU NOS TESTES UNITÁRIOS, NOTA 5.
+
+
+LOG DE TESTE - 2 - CALCULADORA DE GEOMETRIA - LINGUAGEM JAVASCRIPT:
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Bar-Sem-Lona\Rinha Estudantil> node .\geometria.js
+Qual forma geom├®trica voce deseja calcular: 
+1 - Circulo
+2 - Quadrado
+3 - Triangulo
+4 - Sair 1
+Raio: 90
+A area do circulo é: 25446.879
+Qual forma geom├®trica voce deseja calcular:
+1 - Circulo
+2 - Quadrado
+3 - Triangulo
+4 - Sair 2
+Base: 23
+Altura: 41
+A area do quadrado é: 943
+Qual forma geom├®trica voce deseja calcular:
+1 - Circulo
+2 - Quadrado
+3 - Triangulo
+4 - Sair 3
+Base: 10
+Altura: 20
+A area do triangulo é: 100
+Qual forma geom├®trica voce deseja calcular:
+1 - Circulo
+2 - Quadrado
+3 - Triangulo
+4 - Sair 1
+Raio: teste
+Input valid number, please.
+Raio: 90o
+A area do circulo é: 25446.879
+Qual forma geom├®trica voce deseja calcular:
+1 - Circulo
+2 - Quadrado
+3 - Triangulo
+4 - Sair 1
+Raio: 80sete
+A area do circulo é: 20106.176
+Qual forma geom├®trica voce deseja calcular:
+1 - Circulo
+2 - Quadrado
+3 - Triangulo
+4 - Sair 3
+Base: teste10
+Input valid number, please.
+Base: 10teste
+Altura: 90teste
+A area do triangulo é: 450
+Qual forma geom├®trica voce deseja calcular:
+1 - Circulo
+2 - Quadrado
+3 - Triangulo
+4 - Sair 3
+Base: 10
+Altura: 90
+A area do triangulo é: 450
+Qual forma geom├®trica voce deseja calcular:
+1 - Circulo
+2 - Quadrado
+3 - Triangulo
+4 - Sair
+
+CÓDIGO COERENTE, SAÍDAS COERENTES, NÃO PASSOU NOS TESTES UNITÁRIOS (ACEITA STRING APÓS O NÚMERO EMBORA IGNORE), NOTA 10.
+
+
+LOG DE TESTE - 3 - CONVERSOR DE MOEDAS - LINGUAGEM JAVASCRIPT:
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Bar-Sem-Lona\Rinha Estudantil> node .\conversor.js
+1 - Dolar
+2 - Real
+3 - Won Sul-Coreano
+4 - Dirham Marroquino
+5 - Sair
+ 1
+Para qual moeda voce quer tranferir? 1
+Quantas moedas voce quer tranferir? 20
+1 - Dolar
+2 - Real
+3 - Won Sul-Coreano
+4 - Dirham Marroquino
+5 - Sair
+ 1
+Para qual moeda voce quer tranferir? Dolar
+Quantas moedas voce quer tranferir? 90
+1 - Dolar
+2 - Real
+3 - Won Sul-Coreano
+4 - Dirham Marroquino
+5 - Sair
+ 3
+Para qual moeda voce quer tranferir? 90
+Quantas moedas voce quer tranferir? 120
+1 - Dolar
+2 - Real
+3 - Won Sul-Coreano
+4 - Dirham Marroquino
+5 - Sair
+
+CÓDIGO COERENTE, SAÍDAS INCOERENTES, NÃO PASSOU NOS TESTES UNITÁRIOS, NOTA 3.
+
+
+
+LOG DE TESTE - 4 - SIMULADOR DE BANCO - LINGUAGEM JAVASCRIPT:
+CÓDIGO COM CONSOLE CLEAR, MAS O CÓDIGO ESTÁ FUNCIONAL, VALIDANDO SE OS VALORES SÃO POSITIVOS, NÃO HÁ COMO FICAR COM SALDO NEGATIVO.
+CÓDIGO COERENTE, SAÍDAS COERENTES, PASSOU NOS TESTES UNITÁRIOS, NOTA 10.
+
+LOG DE TESTE - 5 - JOGO DA FORCA - LINGUAGEM JAVASCRIPT:
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Bar-Sem-Lona\Rinha Estudantil> NODE .\Forca.js
+Insira a palavra secreta:teste
+Tente adivinhar a palavra, insira uma letra:o
+Tente adivinhar a palavra, insira uma letra:p
+Tente adivinhar a palavra, insira uma letra:s
+Tente adivinhar a palavra, insira uma letra:e
+Tente adivinhar a palavra, insira uma letra:q
+Tente adivinhar a palavra, insira uma letra:e
+Tente adivinhar a palavra, insira uma letra:w
+Tente adivinhar a palavra, insira uma letra:
+Tente adivinhar a palavra, insira uma letra:a
+Tente adivinhar a palavra, insira uma letra:s
+Tente adivinhar a palavra, insira uma letra:s
+Tente adivinhar a palavra, insira uma letra:d
+Tente adivinhar a palavra, insira uma letra:ds
+Tente adivinhar a palavra, insira uma letra:f
+Tente adivinhar a palavra, insira uma letra:t
+Tente adivinhar a palavra, insira uma letra:e
+Tente adivinhar a palavra, insira uma letra:s
+Tente adivinhar a palavra, insira uma letra:t
+Tente adivinhar a palavra, insira uma letra:e
+Tente adivinhar a palavra, insira uma letra:noname
+Tente adivinhar a palavra, insira uma letra:
+
+O CÓDIGO RETORNA UMA MENSAGEM E TEM UMA ESTRUTURA QUE É ESPERADA, MAS NÃO TEM NENHUMA FUNCIONALIDADE, 0.
+
+LOG DE TESTE - 6 - JOGO DE ADVINHAÇÃO - LINGUAGEM JAVASCRIPT:
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Bar-Sem-Lona\Rinha Estudantil> NODE .\jogoAdvinhacao.js
+Come├ºando! Adivinhe o n├║mero (entre 1 e 100): 9
+DICA: O numero é "maior"!
+Come├ºando! Adivinhe o n├║mero (entre 1 e 100): 20
+DICA: O numero é "maior"!
+Come├ºando! Adivinhe o n├║mero (entre 1 e 100): 30
+DICA: O numero é "maior"!
+Come├ºando! Adivinhe o n├║mero (entre 1 e 100): 40
+DICA: O numero é "maior"!
+Come├ºando! Adivinhe o n├║mero (entre 1 e 100): 50
+DICA: O numero é "menor"!
+Come├ºando! Adivinhe o n├║mero (entre 1 e 100): 45
+DICA: O numero é "maior"!
+Come├ºando! Adivinhe o n├║mero (entre 1 e 100): 46
+DICA: O numero é "maior"!
+Come├ºando! Adivinhe o n├║mero (entre 1 e 100): 49
+DICA: O numero é "menor"!
+Come├ºando! Adivinhe o n├║mero (entre 1 e 100): 48
+DICA: O numero é "menor"!
+Come├ºando! Adivinhe o n├║mero (entre 1 e 100): 48
+DICA: O numero é "menor"!
+Come├ºando! Adivinhe o n├║mero (entre 1 e 100): 47
+Partida concluída!
+- Número sorteado: 47
+- Tentativas: 11
+
+INTERESSANTE, É FUNCIONAL, SE EU INSIRO STRING ELE RETORNA ERRO MAS SE EU INSIRO UM NÚMERO NEGATIVO ELE SÓ FECHA, DESSA FORMA:
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\Bar-Sem-Lona\Rinha Estudantil> NODE .\jogoAdvinhacao.js
+Come├ºando! Adivinhe o n├║mero (entre 1 e 100): TESTE
+Input valid number, please.
+Come├ºando! Adivinhe o n├║mero (entre 1 e 100): EE
+Input valid number, please.
+Come├ºando! Adivinhe o n├║mero (entre 1 e 100): 10E
+DICA: O numero é "maior"!
+Come├ºando! Adivinhe o n├║mero (entre 1 e 100): -20
+Ops! Insira um número válido entre 1 e 100.
+
+E A PARTIR DAÍ VOLTA PARA O TERMINAL.
+
+NOTA 5
+
+NOTA FINAL: 30 PONTOS INTEGRAIS, SEM A AJUDA DO AQUECIMENTO, PARABÉNS AO TIME E AS SOLUÇÕES!
