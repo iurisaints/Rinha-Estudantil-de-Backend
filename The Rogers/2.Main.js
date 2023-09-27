@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var _2_CalculadoraDeGeometria_1 = require("./2.CalculadoraDeGeometria");
+var leitor = require("readline-sync");
+var raioCirculo = leitor.questionFloat("Digite o raio do circulo: ");
+var areaCirculo = new _2_CalculadoraDeGeometria_1.Circulo(raioCirculo);
+console.log("\u00C1rea do circulo: ".concat(areaCirculo.calcularArea().toFixed(2)));
+var baseTriangulo = leitor.questionFloat("\nDigite a base do triangulo: ");
+var alturaTriangulo = leitor.questionFloat("Digite a altura do tri\u00E2ngulo: ");
+var areaTriangulo = new _2_CalculadoraDeGeometria_1.Triangulo(baseTriangulo, alturaTriangulo);
+console.log("\u00C1rea do triangulo: ".concat(areaTriangulo.calcularArea()));
+var larguraQuadrado = leitor.questionFloat("\nDigite a largura do quadrado: ");
+var areaQuadrado = new _2_CalculadoraDeGeometria_1.Quadrado(larguraQuadrado);
+console.log("\u00C1rea do quadrado: ".concat(areaQuadrado.calcularArea()));
