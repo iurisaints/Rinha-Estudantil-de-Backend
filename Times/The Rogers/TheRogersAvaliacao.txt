@@ -1,0 +1,318 @@
+NÃO HAVIA O READLINE-SYNC INSTALADO NA PASTA RAIZ, RESULTANDO EM -10 PONTOS NA NOTA FINAL.
+
+LOG DE TESTE - 1 - CADASTRO DE ALUNO - LINGUAGEM TYPESCRIPT:
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers> node .\1.Main.js
+node:internal/modules/cjs/loader:1078
+  throw err;
+  ^
+
+Error: Cannot find module 'readline-sync'
+Require stack:
+- C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers\1.Main.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers\1.Main.js:4:14)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\aluno tarde\\Downloads\\Rinha-Estudantil-de-Backend-main\\Rinha-Estudantil-de-Backend-main\\Times\\The Rogers\\1.Main.js'
+  ]
+}
+
+Node.js v18.15.0
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers> npm install readline-sync
+
+added 1 package in 405ms
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers> node .\1.Main.js
+Digite o nome do aluno: iuri
+Digite a primeira nota: 10
+Digite a segunda nota: 23
+Digite a terceira nota: 100
+C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers\1.CadastroDeAluno.js:11
+            throw new Error("Alguma das notas inseridas foi invalida! A nota deve ser um numero positivo entre 0 e 10.");
+            ^
+
+Error: Alguma das notas inseridas foi invalida! A nota deve ser um numero positivo entre 0 e 10.
+    at Aluno.adicionarNota (C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers\1.CadastroDeAluno.js:11:19)
+    at Object.<anonymous> (C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers\1.Main.js:15:15)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.15.0
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers> node .\1.Main.js
+Digite o nome do aluno: iuri
+Digite a primeira nota: 10
+Digite a segunda nota: 2
+Digite a terceira nota: 7
+
+A média das notas é: 6.33
+
+BOM CÓDIGO, NOTA 10.
+
+
+
+LOG DE TESTE - 2 - CALCULADORA DE GEOMETRIA - LINGUAGEM TYPESCRIPT:
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers> NODE .\2.Main.js
+Digite o raio do circulo: 10
+Área do circulo: 314.16
+
+Digite a base do triangulo: 20
+Digite a altura do tri├óngulo: 30
+Área do triangulo: 300
+
+Digite a largura do quadrado: 10
+Área do quadrado: 100
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers> NODE .\2.Main.js
+Digite o raio do circulo: TETE
+Input valid number, please.
+Digite o raio do circulo: Input valid number, please.
+Digite o raio do circulo:
+
+O CÓDIGO ESTÁ FUNCIONAL MAS A SAÍDA NÃO ESTÁ COMO NO ENUNCIADO POIS PEDIA PARA O USUÁRIO ESCOLHER A FORMA GEOMÉTRICA, nota 5.
+
+LOG DE TESTE - 3 - CONVERSOR DE MOEDAS - LINGUAGEM TYPESCRIPT:
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers> node .\3.ConversaoDeMoedas.js
+Digite o valor que deseja converter: 10
+Digite a moeda que voce deseja converter: (Won sul-coreano, Dirham marroquino, Dolar ou Real.): Won
+C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers\3.ConversaoDeMoedas.js:50
+    throw new Error(`Moeda de origem invalida!`)
+    ^
+
+Error: Moeda de origem invalida!
+    at Object.<anonymous> (C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers\3.ConversaoDeMoedas.js:50:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.15.0
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers> node .\3.ConversaoDeMoedas.js
+Digite o valor que deseja converter: 10
+Digite a moeda que voce deseja converter: (Won sul-coreano, Dirham marroquino, Dolar ou Real.): Won sul-coreano 
+Digite a moeda de destino: (Won sul-coreano, Dirham marroquino, Dolar e Real.): Real
+
+Resultado da conversão: 0.74
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers> node .\3.ConversaoDeMoedas.js
+Digite o valor que deseja converter: teste
+Input valid number, please.
+Digite o valor que deseja converter: -10
+C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers\3.ConversaoDeMoedas.js:11
+    throw new Error(`O valor deve ser um numero positivo!`)
+    ^
+
+Error: O valor deve ser um numero positivo!
+    at Object.<anonymous> (C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers\3.ConversaoDeMoedas.js:11:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.15.0
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers>  
+
+NOTA 10.
+
+
+LOG DE TESTE - 4 - SIMULADOR DE BANCO - LINGUAGEM TYPESCRIPT:
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers> NODE .\4.Main.js
+"Escolha a op├º├úo:
+1 - Criar Conta
+2 - Depositar
+3 - Sacar
+4 - Extrato
+5 - Sair
+"1
+Digite o nome do proprier├írio da conta: IURI
+Digite o numero da conta: 10
+A conta número 10 foi criada com sucesso!
+
+"Escolha a op├º├úo:
+1 - Criar Conta
+2 - Depositar
+3 - Sacar
+4 - Extrato
+5 - Sair
+"2
+Digite o n├║mero da conta: -20
+Conta não encontrada :/
+
+"Escolha a op├º├úo:
+1 - Criar Conta
+2 - Depositar
+3 - Sacar
+4 - Extrato
+5 - Sair
+"2
+Digite o n├║mero da conta: 10 
+Ok, conta encontrada, digite o valor a depositar: -20
+O valor depositado deve ser maior que zero.
+
+"Escolha a op├º├úo:
+1 - Criar Conta
+2 - Depositar
+3 - Sacar
+4 - Extrato
+5 - Sair
+"2
+Digite o n├║mero da conta: 10
+Ok, conta encontrada, digite o valor a depositar: 100
+Você depositou R$ 100.00
+
+"Escolha a op├º├úo:
+1 - Criar Conta
+2 - Depositar
+3 - Sacar
+4 - Extrato
+5 - Sair
+"3
+Digite o n├║mero da conta: -20
+Conta não encontrada :/
+
+"Escolha a op├º├úo:
+1 - Criar Conta
+2 - Depositar
+3 - Sacar
+4 - Extrato
+5 - Sair
+"3
+Digite o n├║mero da conta: -10
+Conta não encontrada :/
+
+"Escolha a op├º├úo:
+1 - Criar Conta
+2 - Depositar
+3 - Sacar
+4 - Extrato
+5 - Sair
+"3
+Digite o n├║mero da conta: 10
+Conta encontrada! Digite o valor do saque: -20
+Você sacou R$ -20.00
+
+"Escolha a op├º├úo:
+1 - Criar Conta
+2 - Depositar
+3 - Sacar
+4 - Extrato
+5 - Sair
+"4
+Digite o n├║mero da conta: 10
+Seu saldo atual é de R$ 120.00
+
+"Escolha a op├º├úo:
+1 - Criar Conta
+2 - Depositar
+3 - Sacar
+4 - Extrato
+5 - Sair
+"5
+Saindo...
+
+SE INSERIR VALOR NEGATIVO NO SAQUE ELE SOMA NA CONTA, NOTA 5.
+POR MAIS QUE EU SAIBA QUE ESSE CÓDIGO É BEM PARECIDO COM O MEU QUE ESTÁ NO MEU REPOSITÓRIO, ELE NÃO TRATA O ERRO DE VALOR < 0 NO SAQUE;
+
+LOG DE TESTE - 5 - JOGO DA FORCA - LINGUAGEM JAVASCRIPT:
+
+-- sem código --
+
+
+LOG DE TESTE - 6 - JOGO DE ADVINHAÇÃO - LINGUAGEM JAVASCRIPT:
+
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers> node .\6.JogoDeAdivinhacao.js
+Vamos Jogar!
+OBS: Se o numero informado for decimal, as casas apos a virgula serao ignoradas. Boa sorte!
+Digite o numero inteiro correto(entre 1 e 100): 80
+O numero chutado foi 80
+
+ERRRROU! é menor que 80
+Digite o numero inteiro correto(entre 1 e 100): 40
+O numero chutado foi 40
+
+ERRRROU! é menor que 40
+Digite o numero inteiro correto(entre 1 e 100): 30
+O numero chutado foi 30
+
+ERRRROU! é menor que 30
+Digite o numero inteiro correto(entre 1 e 100): 20
+O numero chutado foi 20
+
+ERRRROU! é menor que 20
+Digite o numero inteiro correto(entre 1 e 100): 10
+O numero chutado foi 10
+
+ERRRROU! é menor que 10
+Digite o numero inteiro correto(entre 1 e 100): 1
+O numero chutado foi 1
+
+ERRRROU! é maior que 1
+Digite o numero inteiro correto(entre 1 e 100): 3
+O numero chutado foi 3
+
+ERRRROU! é maior que 3
+Digite o numero inteiro correto(entre 1 e 100): 5
+O numero chutado foi 5
+
+ERRRROU! é maior que 5
+Digite o numero inteiro correto(entre 1 e 100): 6
+O numero chutado foi 6
+
+ERRRROU! é maior que 6
+Digite o numero inteiro correto(entre 1 e 100): 7
+O numero chutado foi 7
+
+ERRRROU! é maior que 7
+Digite o numero inteiro correto(entre 1 e 100): 8
+O numero chutado foi 8
+
+ERRRROU! é maior que 8
+Digite o numero inteiro correto(entre 1 e 100): 9
+O numero chutado foi 9
+
+ACERTOU!!
+
+O numero de tentativas foi 12
+PS C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers> node .\6.JogoDeAdivinhacao.js
+Vamos Jogar!
+OBS: Se o numero informado for decimal, as casas apos a virgula serao ignoradas. Boa sorte!
+Digite o numero inteiro correto(entre 1 e 100): teste
+Input valid number, please.
+Digite o numero inteiro correto(entre 1 e 100): -10
+C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers\6.JogoDeAdivinhacao.js:20
+      throw new Error(`Numero invalido! O numero deve ser inteiro e positivo entre 1 e 100`);
+      ^
+
+Error: Numero invalido! O numero deve ser inteiro e positivo entre 1 e 100
+    at perguntaNumero (C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers\6.JogoDeAdivinhacao.js:20:13)
+    at Object.<anonymous> (C:\Users\aluno tarde\Downloads\Rinha-Estudantil-de-Backend-main\Rinha-Estudantil-de-Backend-main\Times\The Rogers\6.JogoDeAdivinhacao.js:40:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.15.0
+
+NOTA 10.
+
+
+NOTA FINAL: 25
